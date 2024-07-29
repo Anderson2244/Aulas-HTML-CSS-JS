@@ -1,0 +1,25 @@
+body{
+    background-color: #502940 ;
+}
+
+h4{
+    border: white solid 3px;
+    background-color: aquamarine;
+}
+li{
+    color: rgb(255, 0, 195);
+}
+
+.deuses{
+    background-color: rgb(254, 254, 254);
+    font-size: 20px;
+}
+
+#cabecalho{
+    border: white solid 3px;
+    background-color: aquamarine;
+}
+
+div p{
+    color: green;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+body{
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 30px;
+    /*negrito*/
+    font-weight: bold;
+    /*espaçamento entre linhas*/
+    line-height: 1.5;
+    /*text-align: center;*/
+    text-decoration: underline;
+
+}
+h1{
+    border: solid 5px black;
+    /*margin: 0px 50px 100px 200px;
+    padding: 10px 200px 100px 5px;*/
+}
+div{
+    width: 50%;
+    margin: 0 auto;
+}
