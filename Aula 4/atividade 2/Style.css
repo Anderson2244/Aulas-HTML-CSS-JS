@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.date{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: 10px;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 350;
+    color: #0077b6;
+    margin: 15px;
+}
+
+.post{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: 10px;
+    font-style: normal;
+    font-weight: 100;
+    background-color: #fff1e6;
+    margin: 15px;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: 15;
+    font-style: normal;
+    font-weight: 300;
+    margin: 15px;
+}
+
+hr{
+    border-color: #0077b6;
+    margin: 15px;
+}
