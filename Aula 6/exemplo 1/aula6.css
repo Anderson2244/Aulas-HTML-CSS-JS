@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(38, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    line-height: 3;
+    color: white;
+}
+
+.container{
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.exemplo{
+    background-color: rgb(145, 145, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px;
+    padding: 7px;
+    line-height: 1.5;
+    font-size: large;
+    font-style: bold;
+    text-align: center;
+    font-weight: bold;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 15px;
+}
+
+.exemplo:hover{
+    background-color: rgb(180, 88, 255);
+    cursor: pointer;
+    opacity: 50%;
+    transform: scale(1.1);
+}
+
+.exemplo img{
+
+}
