@@ -45,3 +45,9 @@ h1{
     text-align: center;
     font-size: small;
 }
+
+hr{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
