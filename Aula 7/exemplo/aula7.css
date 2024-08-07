@@ -1,0 +1,55 @@
+/*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    border: dashed black 3px;
+    width: 400px;
+    height: 400px;
+}
+
+.box1 , .box2 {
+    width: 150px;
+    height: 150px;
+}
+
+.box1{
+    background-color: aqua;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.box2{
+    background-color: blue;
+}*/
+
+.container1{
+    background-color: purple;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: 3;
+}
+
+.container2{
+    background-color: goldenrod;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+}
+
+
+.container3{
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+}
