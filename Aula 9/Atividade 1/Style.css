@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #44355B;
+}
+ 
+.container{
+    background-color: #fff;
+    display: flex;
+    width: 700px;
+    margin: 20px;
+    margin-left: 400px;
+    padding: 10px;
+ 
+}
+ 
+.titulo{
+    font-size: 22px;
+    margin: 12px;
+}
+ 
+.about{
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
+ 
+.post{
+    font-size: 18px;
+    margin-left: 10px;
+}
+ 
+.times{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+ 
+.img1{
+    width: 30px;
+    margin-left: 10px;
+}
