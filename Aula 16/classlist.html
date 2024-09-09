@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="classlist.css">
+</head>
+<body>
+    
+    <p>clique no botão abaixo e adicione várias classes para uma div</p>
+
+    <button onclick="minhaFuncao()">Clique aqui</button>
+
+    <button onclick="minhaFuncao2()">Clique aqui 2</button>
+
+    <div class="minhaDiv">
+        Essa div será alterada
+    </div>
+
+
+    <br>
+
+
+    <div class="buttons">
+        <button onclick="fundoAzul()">Fundo Azul</button>
+        <button onclick="fundoTrans()">Fundo Transparente</button>
+        <button onclick="fonteVer()">Fonte Vermelha</button>
+        <button onclick="fonteNor()">Fonte Normal</button>
+
+        <p id="style">Manipulando CSS via DOM</p>
+    </div>
+
+
+    <script src="classlist.js"></script>
+</body>
+</html>

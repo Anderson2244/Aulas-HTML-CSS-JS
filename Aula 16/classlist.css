@@ -1,0 +1,17 @@
+.classe1{
+    width: 800px;
+    height: 900px;
+    padding: 80px;
+    border: 1px solid yellow;
+}
+
+.classe2{
+    background-color: red;
+    color: orange;
+}
+
+.classe3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
