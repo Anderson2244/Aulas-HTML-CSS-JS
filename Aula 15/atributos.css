@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.imagem{
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+    border-radius: 1px;
+    background: #00bbff;
+    padding: 10px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.container{
+    background: #00bbff;
+    margin-right: 1000px;
+    margin-left: 1000px;
+}
+
+.botao{
+    background: #00bbff;
+}

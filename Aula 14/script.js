@@ -11,7 +11,7 @@ function BlurMe(){
 }
 
 function changeMe(){
-    console.log("Fui alterado!")
+    console.log("Passou o mouse!")
 }
 
 function OverMe(){
