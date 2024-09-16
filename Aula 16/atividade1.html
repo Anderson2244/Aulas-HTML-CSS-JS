@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade1.css">
+</head>
+<body>
+
+    <!-- Criar o formulário com a lista (OPTION)
+ 
+criar a função no javascript
+ 
+manipular o elemento select (document.querySelector("select") )
+ 
+Se o elemento selecionado estiver desabilitado usar o style para deixar a cor da fonte branca e o fundo vermelho
+ 
+ 
+se estiver habilitado tirar o fundo vermelho e a fonte branca -->
+
+<div class="opcao">
+
+    <label for="pet-select">Choose a option:</label>
+
+    <select onchange="desabilitaTexto()" name="select" id="opcao-select">
+      <option value="">--options--</option>
+    
+    
+      <option value="habilitado">habilitado</option>
+      <option value="desabilitado">desabilitado</option>
+
+
+      texto texto<input id="texto" type="text">
+      <p class="texto"></p>
+    </select>
+<p></p>
+    
+</div>
+
+   
+
+
+    <script src="atividade1.js"></script>
+</body>
+</html>

@@ -11,17 +11,16 @@ function fundoAzul(){
     elemento.style.backgroundColor = "blue"
 }
 
-function fundoTrans(){
-    let elemento = document.querySelector('#style')
-    
+function fundoTransp(){
+    document.querySelector('#style').style.backgroundColor = 'transparent'
 }
 
 function fonteVer(){
     let elemento = document.querySelector('#style')
-
+    elemento.classList.add('red-color')
 }
 
 function fonteNor(){
     let elemento = document.querySelector('#style')
-
+    elemento.classList.remove('red-color')
 }
