@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locais</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLoginTitulo">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputPassword" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="InputPassword">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar na conta</button>
+                        <div class="form-text">Esqueceu a senha? <a href="#">Clique Aqui</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top box-shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+                <img src="img/TOUR_logo.png" width="90">
+            </a>
+            <!-- Atributos que iniciam em 'DATA' esta sendo manipulado pelo JS -->
+            <!-- Atributos que iniciam em 'ARIA' Acessibilidade -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Menu de Navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ms Margin Start -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button"
+                            id="navBarDropDown" data-bs-toggle="dropdown" aria-expanded="false">Locais</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="local.html">California</button></a>
+                            <li><a class="dropdown-item" href="local.html">Pais</button></a>
+                            <li><a class="dropdown-item" href="local.html">Dublin</button></a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="planos.html">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal"
+                            data-bs-target="#modalLogin">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- ms-md-2 só é aplicado quando a tela tem tamanho médio para cima -->
+                        <a class="btn btn-outline-primary ms-md-4" aria-current="page" href="#">Inscreva-se</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <section class="py-5 bg-body-tertiary text-center">
+        <div class="container">
+            <div class="my-5">
+                <span class="h6 d-block">O MELHOR DESTINO DA SUA VIDA</span>
+                <h2 class="display-4 text-primary">Descubra Dublin</h2>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <img class="img-fluid mb-4" src="img/local/foto-1.jpg" alt="foto1">
+                    <img class="img-fluid mb-4" src="img/local/foto-2.jpg" alt="foto2">
+                    <img class="img-fluid mb-4" src="img/local/foto-3.jpg" alt="foto3">
+                </div>
+                <div class="col">
+                    <img class="img-fluid mb-4" src="img/local/foto-4.jpg" alt="foto4">
+                    <img class="img-fluid mb-4" src="img/local/foto-5.jpg" alt="foto5">
+                </div>
+                <div class="col">
+                    <img class="img-fluid mb-4" src="img/local/foto-6.jpg" alt="foto6">
+                    <img class="img-fluid mb-4" src="img/local/foto-7.jpg" alt="foto7">
+                </div>
+            </div>
+            <div class="my-5">
+                <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
+                <h2 class="display-4 text-primary">Próximos Eventos</h2>
+            </div>
+            <table class="table table-hover table-responsive-md text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">Data</th>
+                    <th scope="col">Evento</th>
+                    <th scope="col">Local</th>
+                    <th scope="col">Ticket</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11/09</th>
+                    <td>Travis Scott</td>
+                    <td>3Arena</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">03/03</th>
+                    <td>Matuê</td>
+                    <td>Vicar Street</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div><!-- Container -->
+    </section>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h6 class="text-uppercase">Páginas</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="planos.html" class="text-white text-decoration-nome">Planos</a></li>
+                        <li><a href="Contato.html" class="text-white text-decoration-nome">Contato</a></li>
+                        <li><a href="Inscreva-se.html" class="text-white text-decoration-nome">Inscreva-se</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h6 class="text-uppercase">Locais</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="Locais.html" class="text-white text-decoration-nome">California</a></li>
+                        <li><a href="Locais.html" class="text-white text-decoration-nome">Paris</a></li>
+                        <li><a href="Locais.html" class="text-white text-decoration-nome">Inscreva-se</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="h6">DADOS DE CONTATO</h4>
+                    <ul class="list-unstyled text-secondary">
+                        <li>tour@tour.com.br</li>
+                        <li>11 99999-9999</li>
+                        <li>De Seg. à Sex das 8h às 18h</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="h6">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="btn btn-outline-secondary btn-sm bt-block mb-2"
+                                style="max-width: 140px;">Facebook</a></li>
+                        <li><a href="#" class="btn btn-outline-secondary btn-sm bt-block mb-2"
+                                style="max-width: 140px;">Twitter</a></li>
+                        <li><a href="#" class="btn btn-outline-secondary btn-sm bt-block mb-2"
+                                style="max-width: 140px;">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-primary text-center py-3 text-white">
+        <p class="mb-0">Tour® 2024. Alguns diretios reservados</p>
+    </div>
+    <!-- Bootstrap JS with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>

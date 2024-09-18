@@ -16,22 +16,29 @@
     <!-- bg-body-tertiary Cor de fundo do elemento -->
     <!-- container-fluid responsavel por todos os elementos do menu -->
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLoginTitulo">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputPassword" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="InputPassword">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar na conta</button>
+                        <div class="form-text">Esqueceu a senha? <a href="#">Clique Aqui</a></div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
     </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top box-shadow">
         <div class="container-fluid">
@@ -64,7 +71,8 @@
                         <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                        <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal"
+                            data-bs-target="#modalLogin">Login</a>
                     </li>
                     <li class="nav-item">
                         <!-- ms-md-2 só é aplicado quando a tela tem tamanho médio para cima -->
@@ -263,7 +271,7 @@
             <a class="btn btn-primary btn-lg" href="contato.html">Entre em contato</a>
         </div>
     </section>
-    <footer class="bg-dark text-white py-4">
+    <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6">
